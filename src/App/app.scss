@@ -1,0 +1,26 @@
+/**
+ * Archivo:     src/App/app.scss
+ * Descripción: Archivo de estilos del componente principal
+ * Autor:       Armando@Joonik
+ * Creado:      Ene 31 / 2018
+ */
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+
+	/* Adjust font size */
+	font-size: 100%;
+	-webkit-text-size-adjust: 100%;
+
+	/* Font varient */
+	font-variant-ligatures: none;
+	-webkit-font-variant-ligatures: none;
+
+	/* Smoothing */
+	text-rendering: optimizeLegibility;
+	font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+}
